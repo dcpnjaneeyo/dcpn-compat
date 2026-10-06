@@ -25,8 +25,8 @@
       <div class="brand-row">
         <div class="brand-row__icon" aria-hidden="true">✦</div>
         <div>
-          <p class="brand-row__kicker">創作キャラクター</p>
-          <p class="brand-row__title">相性診断</p>
+          <p class="brand-row__kicker">江頭家</p>
+          <p class="brand-row__title">うちのこ相性診断</p>
         </div>
       </div>`;
   }
@@ -34,12 +34,12 @@
   function renderStart() {
     root.innerHTML = `
       <section class="screen screen--start">
-        <div class="pattern-hero" role="img" aria-label="創作キャラクターのイラストパターン"></div>
+        <div class="pattern-hero" role="img" aria-label="江頭家のキャラクターイラストパターン"></div>
         <div class="brand-mark" aria-hidden="true">✦</div>
         <div class="start-copy">
-          <p class="eyebrow">創作キャラクター</p>
-          <h1>相性診断</h1>
-          <p class="lead">あなたが質問に答えると、6人の創作キャラクターの中から最も相性がいい1人がわかります。</p>
+          <p class="eyebrow">江頭家</p>
+          <h1>うちのこ相性診断</h1>
+          <p class="lead">質問は全8問。飼い主さんの名前でも、お子さんの名前でもお気軽にどうぞ～！</p>
         </div>
         <form id="start-form" novalidate>
           <div class="form-group">

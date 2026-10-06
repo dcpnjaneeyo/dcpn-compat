@@ -163,7 +163,7 @@
   ];
 
   window.DIAGNOSIS_DATA = {
-    title: '創作キャラクター相性診断',
+    title: '江頭家 うちのこ相性診断',
     axes: AXES,
     questions: QUESTIONS,
     characters: CHARACTERS,
