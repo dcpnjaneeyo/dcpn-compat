@@ -177,7 +177,10 @@
   }
 
   function renderRubyName(character) {
-    return `<ruby>${escapeHtml(character.name)}<rt>${escapeHtml(character.furigana || '')}</rt></ruby>`;
+    if (character.id === 'mari' || !character.furigana) {
+      return escapeHtml(character.name);
+    }
+    return `<ruby>${escapeHtml(character.name)}<rt>${escapeHtml(character.furigana)}</rt></ruby>`;
   }
 
   function renderRunner(item, rank) {
